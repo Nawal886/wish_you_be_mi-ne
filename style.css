@@ -31,11 +31,11 @@ body {
 }
 
 .login-btn {
-    background-color: #4caf50;
+    background-color: #6b6b6b;
 }
 
 .cta-btn {
-    background-color: #ff5722;
+    background-color: #6b6b6b;
 }
 
 .login-btn, .cta-btn {
@@ -46,11 +46,11 @@ body {
 }
 
 .login-btn:hover {
-    background-color: #45a049;
+    background-color: #6b6b6b;
 }
 
 .cta-btn:hover {
-    background-color: #e64a19;
+    background-color: #6b6b6b;
 }
 
 .menu-toggle {
