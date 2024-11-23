@@ -3,21 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
-    <link rel="icon" href="download (1).jpeg" type="image/jpg">
+    <title> [Aditama PS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Pw.jpg" type="image/jpg">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <nav class="navbar">
-            <h1>RahmadPurba.DORM</h1>
-            <div class="navbar-links">
-                <a href="#about me" class="login-btn">About me</a>
-                <a href="https://wa.me/0895356871030" class="login-btn">Contact me</a>
-                <a href="https://maps.app.goo.gl/Nws1qnwuThVrUrrS8" class="cta-btn">Found me</a>
-            </div>
-            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <div class="logo">ADITAMA RENTAL PS</div>
+        <nav>
+            <ul>
+              <li><a href="https://maps.app.goo.gl/HiUy2J2JWfQ7kTpg9">Maps</a></li>
+              <li><a href="https://aditamarentalps.github.io/Paket_PS/">Harga PS</a></li>
+              <li><a href="#game">Daftar Game</a></li>
+              <li><a href="#testimoni">Testimoni</a></li>
+              <li><a href="#hubingi kami">Hubungi Kami</a></li>
+            </ul>
         </nav>
-    </header>   
+        <button class="cta" onclick="window.location.href='https://wa.me/6289688776464">Pesan Sekarang</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero">
+        <h1>Selamat Datang di Aditama PS</h1>
+        <p>Main PS Lebih Seru, Lebih Hemat, Dan cocok nih buat temen temen yg suka gadang di hari-hari libur...!</p>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Kami menyediakan layanan penyewaan PlayStation terbaik dengan berbagai game terbaru PS 3 Dan PS 4</p>
+    </section>
+    <div class="container">
+        <div class="card">
+            <h3>PS 3(Paket Satuan</h3>
+            <p>Per jam</p>
+            <p class="price">Rp5.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+        <div class="card">
+            <h3>PS 4(Paket Satuan)</h3>
+            <p>Perjam</p>
+            <p class="price">Rp9.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+        <div class="card">
+            <h3>Paket Malam PS 3</h3>
+            <p>4 Jam(Dari jam 23.00)</p>
+            <p class="price">Rp15.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+        <div class="card">
+            <h3>Paket Malam PS 4</h3>
+            <p>4 Jam(Dari jam 23.00)</p>
+            <p class="price">Rp25.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+        <div class="card">
+            <h3>Nyewa ke rumah PS 3</h3>
+            <p>12 Jam</p>
+            <p class="price">Rp40.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+        <div class="card">
+            <h3>Nyewa ke rumah PS 3</h3>
+            <p>24 Jam</p>
+            <p class="price">Rp70.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+        <div class="card">
+            <h3>Nyewa ke rumah PS 4</h3>
+            <p>12 Jam</p>
+            <p class="price">Rp85.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+        <div class="card">
+            <h3>Nyewa ke rumah  PS 4</h3>
+            <p>24 JAm</p>
+            <p class="price">Rp125.000</p>
+            <button>Pesan Sekarang</button>
+        </div>
+    </div>
+
+    <!-- Daftar Game -->
+    <section id="game">
+        <h2>Daftar Game</h2>
+        <div class="game-list">
+            <div class="game-item">
+                <div class="slideshow-container">
+                    <div class="slide">
+                      <img src="Naruto Shippuden_ Ultimate Ninja Heroes 3 - SONY PSP [Pre-Owned] - PRE-OWNED GAME DISC WITH GAME CASE AND GAME COVER.jpeg" alt="Naruto shipuden" class="slide-image">
+                      <p class="caption">Naruto Shipusen: Action, Adventure, Strategic.</p>
+                    </div>
+                    <div class="slide">
+                      <img src="PES.jpeg" alt="Image 2" class="slide-image">
+                      <p class="caption">Pes 24: Strategic, Tactic.</p>
+                    </div>
+                    <div class="slide">
+                      <img src="Call of duty.jpeg" alt="Image 3" class="slide-image">
+                      <p class="caption">Call of Duty:Action, Strategic .</p>
+                    </div>
+                    <div class="slide">
+                      <img src="Resident Evil.jpeg" alt="Image 4" class="slide-image">
+                      <p class="caption">Resident Evil: Mision, Survival, Adventure.</p>
+                    </div>
+                    <div class="slide">
+                      <img src="Yakuza 6.jpeg" alt="Image 5" class="slide-image">
+                      <p class="caption">Yakuza 6: Adventure, Mision.</p>
+                    </div>
+                    <div class="slide">
+                      <img src="GTA.jpeg" alt="Image 6" class="slide-image">
+                      <p class="caption">GTA: Adventure, Mision.</p>
+                    </div>
+                  </div>
+                
+                  <div id="zoomModal" class="zoom-modal">
+                    <span class="close" id="closeZoom">&times;</span>
+                    <img id="zoomedImage" class="zoomed-image">
+                    <p id="zoomCaption" class="zoom-caption"></p>
+                  </div>
+                
+                  <script src="script.js"></script>
+    <!-- Testimoni -->
+    <section id="testimoni">
+        <h2>Testimoni</h2>
+        <blockquote>
+            "Layanannya sangat memuaskan! Game-nya lengkap dan konsolnya bagus!" - Pelanggan A
+        </blockquote>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+        <h2>Hubungi Kami</h2>
+        <form>
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 [Aditama Rental PS]. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
 </body>
 </html>
