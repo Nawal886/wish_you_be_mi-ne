@@ -56,3 +56,13 @@ document.querySelectorAll('.slide-image').forEach(image => {
 document.getElementById("closeZoom").addEventListener("click", closeZoom);
 
 showSlides();
+@media (max-width: 768px) {
+  .card {
+      flex: 1 1 calc(50% - 20px); /* 2 kolom pada perangkat tablet */
+  }
+}
+@media (max-width: 480px) {
+  .card {
+      flex: 1 1 100%; /* 1 kolom pada perangkat kecil */
+  }
+}
